@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Roboto:wght@100;300;400;500;700&family=Syncopate:wght@400;700&display=swap');
+*{
+    background-color: #EAC926;;
+}
+p{
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+
+}
+.logo{
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    
+}
+.title {
+ font-size: 24px;
+}
+.cost{
+    font-size: 18px;
+    text-align: center;
+}
+.data{
+    font-size: 16px;
+    text-align: center;
+}
+.fa-bars{
+    background-color: #03264C;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 175px;
+}
+img{
+    height: 100px;
+    width: 120px;
+    margin-left: 140px;
+}
+.foot{
+    text-align: center; 
+    line-height: 10px;
+    margin-bottom: 2px;
+     
+}
+.intro{
+    text-align: left;
+    line-height: 10px;
+}
+.cuotas{
+    text-align: center;
+}
+.copy{
+    text-align: left;
+   
+}
+.fa-credit-card{
+   font-size: 2em;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+.fa-gift{
+   font-size: 2em;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+
+.fa-user-shield{
+   font-size: 2em;
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+.subfoot{
+    margin-bottom: 1px;
+}   
