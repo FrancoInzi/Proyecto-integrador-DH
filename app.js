@@ -1,4 +1,25 @@
-const express = require(express)
-const app = express()
+const express = require('express');
+const path = require('path');
 
-app.listen(3000, ()=>console.log("servidor corriendo puerto 3000"))
+const app = express();
+
+const publicFolderPath = path.resolve(__dirname, './public');
+console.log(publicFolderPath);
+
+app.use(express.static(publicFolderPath) );
+
+app.get('/', (req,res) => {
+    res.sendFile(path.join(__dirname, './public/views/home.html'));
+});
+
+app.get('/login', (req,res) => {
+    res.sendFile(path.join(__dirname, './public/views/login.html'));
+});
+
+app.get('/register', (req,res) => {
+    res.sendFile(path.join(__dirname, './public/views/register.html'));
+});
+
+app.listen(3030, () => {
+    console.log('Servidor corriendo');
+});
