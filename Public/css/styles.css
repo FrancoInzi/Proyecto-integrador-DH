@@ -219,16 +219,24 @@ img{
     
 } 
 .register{
-    height: 1200px;
+    background-color: #ebebeb;
+    display: block;
+    margin: auto;
+    width: 100%;
+    
 
 }
 form{
     text-align: center;
     padding: 45px 15px;
     
-    
    
 } 
+.registro{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 ul{
     text-decoration: none;
 } 
@@ -250,7 +258,7 @@ label{
     margin-bottom: 10px;
     padding-top: 5px;
     width: 150px;
-    height: 75px;
+    height: 60px;
    
   
 }
@@ -266,11 +274,10 @@ label{
 .enviar{
     background-color: #03264C;
     color: #ebebeb;
-    width: 200px;
+    margin: auto;
+    width: 250px;
     text-align: center;
-    position: relative;
-    right: 15%;
-    top: 10%;
+    
 }
 .enviar:hover{
     background-color:  color #0022AA;
@@ -289,7 +296,11 @@ input{
     height: 250px;
     text-align: left;
 }
-
+.register{
+    display: block;
+    margin: auto;
+    width: 5%;
+}
 
 @media (min-width: 361px){
     .fa-bars{
