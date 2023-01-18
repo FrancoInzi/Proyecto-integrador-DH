@@ -116,69 +116,23 @@ p{
     color:  rgb(31, 30, 30);
         
 }
-.productos{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;    
+form{
+    text-align: center;
+    padding: 45px 15px;
+    width: 200px;
+   
+} 
+.enviar{
+    background-color: #03264C;
+    color: #ebebeb;
     margin: auto;
-    padding: 15px;
-    margin-top: -4px;    
-    justify-content: center;    
-}
-.articulo{
-    border: 10px solid;
-    border-color: #ebebeb;
-    background-color: white;      
-    height: 300px;
     width: 250px;
-    display: flex;
-    flex-wrap: wrap;    
-}
-img{
-    height: 100px;
-    width: 120px;
+    text-align: center;
     
 }
-.cajaInfo{
-    border-top: 1px solid #ebebeb;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-}
-.cost{
-    font-size: 18px;
-    color:  rgb(31, 30, 30);        
-    text-align: justify;
-    
-}
-.data{
-    font-size: 16px;
-    color:  #39b54a;
-    text-align: justify;
-    
-    
-}
-.fa-truck{
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: white;
-    border-radius: 50%;
-    color: #39b54a;
-    position: relative;  
-    top: -20px;
-    right: -50px;
-}
-.modelo{
-    font-size: 16px;
-    text-align: left;
-    color:  rgb(31, 30, 30);
-    display: block;
+.enviar:hover{
+    background-color:  color #0022AA;
+    color: #0022AA;
 }
 
 .foot{
@@ -221,99 +175,13 @@ img{
     margin-bottom: 1px;
     
 } 
-.register{
-    background-color: #ebebeb;
-    display: block;
-    margin: auto;
-    width: 100%;
-    
-
-}
-form{
-    text-align: center;
-    padding: 45px 15px;
-    
-   
-} 
-.registro{
-    display: block;
-    margin: auto;
-    width: 100%;
-}
-ul{
-    text-decoration: none;
-} 
-
-label{
-    font-family: 'roboto', sans-serif;
-    font-size: 12px;
-    color:  rgb(31, 30, 30);
-    text-align: center;
-   padding: 15px;
-}
-.subtitulo{
-    font-size: medium;
-    font-weight: 600;
-    width: 100px;
-   
-}
-.logAndReg{
-    margin-bottom: 10px;
-    padding-top: 5px;
-    width: 150px;
-    height: 60px;
-   
-  
-}
-.boton{
-   background-color:#03264C;
-   color: #ebebeb;
-   width: 100px;
-   
-   text-align: center;
-   
-}
-
-input{
-     width: 200px;
-     height: 25px;
-     
-}
-.interes ul{
-    margin-top: 5px;
-}
-
-.interes{
-    height: 250px;
-    text-align: left;
-}
-.interes li{
-    list-style: none;
-    
-}
-.register{
-    display: block;
-    margin: auto;
-    width: 5%;
-}
-.checkint{
-    position: relative;
-    right: -50%;
-    
-}
 
 
 @media (min-width: 361px){
     .fa-bars{
        margin-left: 46vw;
     }
-    
-    img{
-        height: 140px;
-        width: 168px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    
+        
     .burger{
         display: none;
     }   
@@ -334,11 +202,8 @@ input{
     .navbar a{
         font-size: smaller;
     }
-    
-    
-    .articulo{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+       
+   
     .top{
         justify-content: space-between;
     } 
@@ -355,22 +220,12 @@ input{
         background-color: #EAC926;
         width: 150px;
     }
-    form{
-        background-color: white;
-        height: 850px;
-    }
-    input{
-        position: relative;
-        
-    }
+   
+   
     
 }
 @media (min-width: 769px){
-    .articulo{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        height: 320px;
-        width: 275px;
-    }
+    
     img{
         height: 180px;
         width: 216px;
@@ -412,28 +267,11 @@ input{
         background-color: #EAC926;
         width: 150px;
     }
-    .logAndReg{
-        margin-bottom: 20px;
-        width: 200px;
-        padding-top: 35px;
-        
-    }
-    form{
-         height: 900px;
-       
-    }
+   
     
 }
 @media (min-width: 1366px){
-    .articulo{
-       
-        height: 320px;
-        width: 275px;
         
-    }
-    .articulo:hover{
-         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
     .burger{
         display: none;
     }
@@ -454,9 +292,7 @@ input{
     .navbar a{
         font-size: medium;
     }
-    .fa-truck:hover{
-        transform: rotate(-90deg);
-    }
+   
     .top{
         justify-content: space-between;
     } 
@@ -475,24 +311,11 @@ input{
         background-color: #EAC926;
         width: 150px;
     }
-    .logAndReg{
-        margin-bottom: 25px;
-        width: 250px;
-        padding-top: 45px;
-        
-    }
     .buscador{
         width: 250px;
         height: 35px;
     }
-    form{
-        background-color:white;
-        height: 1000px;
-        padding: 0%;
-        margin: 0%;
-        width: 325%;
-    }
-    
+       
     .foot{
         display: flex;
         flex-wrap: nowrap;
