@@ -87,7 +87,10 @@ nav{
 }
 main{   
     background-color:  #ebebeb;
-    width: 90%;
+    width: 100%;
+    margin: auto;
+    
+    
 }
 h3{
     background-color: #ebebeb;
@@ -216,33 +219,40 @@ img{
     
 } 
 .register{
-    display: block;
+    height: 1200px;
+
 }
 form{
-    display: block;
     text-align: center;
-    margin-left: 40px;
-    padding-left: 15%;
-    align-content: center;
-    height: 780px;
-}  
+    padding: 45px 15px;
+    
+    
+   
+} 
+ul{
+    text-decoration: none;
+} 
+
 label{
     font-family: 'roboto', sans-serif;
     font-size: 12px;
     color:  rgb(31, 30, 30);
-    text-align: justify; 
+    text-align: center;
+   padding: 15px;
 }
 .subtitulo{
     font-size: medium;
     font-weight: 600;
+    width: 100px;
+   
 }
 .logAndReg{
     margin-bottom: 10px;
-    padding-top: 25px;
+    padding-top: 5px;
     width: 150px;
-    height: 50px;
-    display: block;
-    align-content: center;
+    height: 75px;
+   
+  
 }
 .boton{
    background-color:#03264C;
@@ -269,17 +279,17 @@ label{
 input{
      width: 200px;
      height: 25px;
-     position: relative;
-     right: 15%;
+     
+}
+.interes ul{
+    margin-top: 5px;
 }
 
-.checkint{
-    display:grid;
-}
 .interes{
     height: 250px;
     text-align: left;
 }
+
 
 @media (min-width: 361px){
     .fa-bars{
@@ -334,16 +344,14 @@ input{
         width: 150px;
     }
     form{
-        padding-left: 20%;
+        
         height: 850px;
     }
     input{
         position: relative;
-        right: 25%;
+        
     }
-    .enviar{
-        right: 25%;
-    }
+    
 }
 @media (min-width: 769px){
     .articulo{
@@ -399,12 +407,10 @@ input{
         
     }
     form{
-        padding-left: 40%;
+        
         height: 900px;
     }
-    .enviar{
-        right: 38%;
-    }
+    
 }
 @media (min-width: 1366px){
     .articulo{
@@ -465,12 +471,10 @@ input{
         height: 35px;
     }
     form{
-        padding-left: 40%;
+        
         height: 950px;
     }
-    .enviar{
-        right: 41%;
-    }
+    
     .foot{
         display: flex;
         flex-wrap: nowrap;
