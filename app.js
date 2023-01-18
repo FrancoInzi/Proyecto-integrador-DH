@@ -22,4 +22,6 @@ app.get('/register', (req,res) => {
     res.sendFile(path.join(__dirname, './public/views/register.html'));
 });
 
-app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`));
+app.listen(port, () => {
+    console.log(`Servidor corriendo en el puerto ${port}`);
+});
