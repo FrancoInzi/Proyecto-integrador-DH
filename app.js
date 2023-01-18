@@ -1,27 +1,25 @@
-const express=require("express")
-const path=require("path")
+const express = require('express');
+const path = require('path');
 
-const app=express();
+const app = express();
 
-const port =process.env.PORT || 3030;
+const port = process.env.PORT || 3030
 
-const publicPath = path.resolve(__dirname,'./public');
-app.use(express.static(publicPath));
+const publicFolderPath = path.resolve(__dirname, './public');
+console.log(publicFolderPath);
 
+app.use(express.static(publicFolderPath) );
 
-app.get('/',(req,res)=>{
-    let htmlVentanas=(path.resolve(__dirname,'./views/home.html'))
-    res.sendFile(htmlVentanas)
-})
+app.get('/', (req,res) => {
+    res.sendFile(path.join(__dirname, './views/home.html'));
+});
 
-app.get('/register',(req,res)=>{
-    let htmlVentanas=(path.resolve(__dirname,'./views/register.html'))
-    res.sendFile(htmlVentanas)
-})
+app.get('/views/login.html', (req,res) => {
+    res.sendFile(path.join(__dirname, './views/login.html'));
+});
 
-app.get('/login',(req,res)=>{
-    let htmlVentanas=(path.resolve(__dirname,'./views/login.html'))
-    res.sendFile(htmlVentanas)
-})
+app.get('/views/register.html', (req,res) => {
+    res.sendFile(path.join(__dirname, './views/register.html'));
+});
 
 app.listen(port,()=>console.log(`servidor escuchando en puerto ${port}`));
