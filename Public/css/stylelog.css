@@ -175,6 +175,14 @@ form{
     margin-bottom: 1px;
     
 } 
+.boton{
+    background-color:#03264C;
+    color: #ebebeb;
+    width: 100px;
+    
+    text-align: center;
+    
+ }
 
 
 @media (min-width: 361px){
