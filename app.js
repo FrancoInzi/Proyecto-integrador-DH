@@ -5,7 +5,7 @@ const app = express();
 
 const port = process.env.PORT || 3030
 
-const publicFolderPath = path.resolve(__dirname, './public');
+const publicFolderPath = path.join(__dirname, './Public');
 console.log(publicFolderPath);
 
 app.use(express.static(publicFolderPath) );
